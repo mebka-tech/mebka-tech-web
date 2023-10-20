@@ -1,0 +1,257 @@
+@keyframes move-left-right {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+@keyframes move-right-left {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+.nav .contentNav {
+  background-color: #e14eca;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+.nav .divHamb{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: #e14eca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .divHamb .itemsNavHamb{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.nav .divHamb .itemsNavHamb a i{
+    padding: 0.5em 0;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.nav .contentNav .divLogo {
+  padding: 0.25em 5em;
+}
+
+.nav .contentNav .itemsNav {
+  padding: 0.25em 5em;
+  
+  float: right;
+}
+
+.nav .contentNav .itemsNav a {
+  margin: 0 0.5em;
+}
+.nav .contentNav .itemsNav a i {
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+}
+
+.nav .contentNav .divLogo img {
+  width: 10em;
+}
+
+.nav .contentNav .btnHamburguesa{
+    display: none;
+}
+
+.nav .contentNav .btnHamburguesa a i{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+.index-page {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #525f7f;
+  text-align: left;
+  background-color: #171941;
+}
+
+.index-page .page-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  position: relative;
+}
+
+.index-page .page-header .container .content-center.brand .h1-seo,
+.index-page .page-header .container .content-center.brand h3 {
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.index-page .page-header .category-absolute {
+  position: absolute;
+  top: 100vh;
+  margin-top: -60px;
+  padding: 0 15px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.index-page .squares {
+  animation: move-left-right 12s infinite;
+  background: #ba54f5;
+  background: -webkit-linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+  background: -o-linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+  background: -moz-linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+  background: linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+  position: absolute;
+  transition: 0.5s ease-out;
+  overflow: hidden;
+  border-radius: 15%;
+}
+
+.index-page .squares.square1 {
+  animation: move-left-right 12s infinite;
+  height: 23vw;
+  width: 23vw;
+  opacity: 0.3;
+  left: 25%;
+  top: 40%;
+  z-index: 0;
+}
+
+.index-page .squares.square2 {
+  animation: move-right-left 12s infinite;
+  height: 10vw;
+  width: 10vw;
+  opacity: 0.1;
+  left: 20%;
+  bottom: 5%;
+}
+
+.index-page .squares.square3 {
+  animation: move-left-right 12s infinite;
+  height: 20vw;
+  width: 20vw;
+  opacity: 0.1;
+  left: 40%;
+  top: 20%;
+}
+
+.index-page .squares.square4 {
+  animation: move-right-left 12s infinite;
+  height: 18vw;
+  width: 18vw;
+  opacity: 0.7;
+  right: 1%;
+  top: 29%;
+}
+
+.index-page .squares.square5 {
+  animation: move-left-right 12s infinite;
+  height: 8vw;
+  width: 8vw;
+  opacity: 0.1;
+  left: 2%;
+  bottom: 55%;
+}
+
+.index-page .squares.square6 {
+  animation: move-right-left 12s infinite;
+  left: 5%;
+  top: 10%;
+  height: 15vw;
+  width: 15vw;
+  opacity: 0.8;
+}
+
+.index-page .squares.square7 {
+  animation: move-left-right 12s infinite;
+  width: 20vw;
+  height: 20vw;
+  right: 10%;
+  bottom: 45%;
+  opacity: 0.1;
+}
+.index-page .squares.square8 {
+  animation: move-left-right 12s infinite;
+  width: 13vw;
+  height: 13vw;
+  right: 10%;
+  bottom: 15%;
+  opacity: 0.1;
+}
+.index-page .squares.square9 {
+  animation: move-left-right 12s infinite;
+  width: 9vw;
+  height: 9vw;
+  right: 5%;
+  bottom: 5%;
+  opacity: 0.1;
+}
+
+.oculto {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav .contentNav {
+        justify-content: space-around;
+    }
+
+    .nav .contentNav .divLogo {
+        padding: 0.25em 0em;
+    }
+    
+    .itemsNav{
+        display: none;
+    }
+
+    .btnHamburguesa{
+        display: block !important;
+    }
+}
