@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #e14eca;
+  /* --primary-color: #e14eca;
   --principal-color: #171941;
   --secondary-color: #6c757d;
 
@@ -12,5 +12,64 @@
 
   --footter-color: #171941;
   --footter-color-grade: #292d61;
-  --footter-color-border: #435db5;
+  --footter-color-border: #435db5; */
+
+
+  /* --primary-color: #c91842;
+  --principal-color: #25232d;
+  --secondary-color: #6c757d;
+
+  --radial-gradient: #000000;
+
+  --pink-primary: #98173d;
+  --pink-primary-grade: #c91842;
+
+  --card-color: #1f2251;
+  --card-color-hover: #98173d;
+
+  --footter-color: #25232d;
+  --footter-color-grade: #c91842;
+  --footter-color-border: #98173d; */
+
+
+  /* --primary-color: #cc527a;
+  --principal-color: #363636;
+  --secondary-color: #e8175d;
+
+  --radial-gradient: #474747;
+
+  --pink-primary: #cc527a;
+  --pink-primary-grade: #e8175d;
+
+  --card-color: #cc527a;
+  --card-color-hover: #a8a7a7;
+
+  --footter-color: #363636;
+  --footter-color-grade: #cc527a;
+  --footter-color-border: #e8175d; */
+
+
+  --primary-color: #2a6a5e;
+  --principal-color: #343838;
+  --secondary-color: #e8175d;
+
+  --text-color: #fff;
+  --text-secondary-color: #ffffff;
+
+  --text-color-cards: #bebebe;
+  --text-color-cards-sub: #000000;
+
+  --color-icon-nav: #ffffff;
+
+  --radial-gradient: rgb(75, 75, 75);
+
+  --pink-primary: #7fb1a8;
+  --pink-primary-grade: #94f9bf;
+
+  --card-color:#2b9eb3;
+  --card-color-hover: #cbe86b;
+
+  --footter-color: #2a6a5e;
+  --footter-color-grade: #2a6a5e;
+  --footter-color-border: #2a6a5e;
 }
