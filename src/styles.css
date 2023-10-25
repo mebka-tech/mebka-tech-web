@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #e14eca;
+  --principal-color: #171941;
+  --secondary-color: #6c757d;
+
+  --radial-gradient: #000000;
+
+  --pink-primary: #ba54f5;
+  --pink-primary-grade: #e14eca;
+
+  --card-color: #1f2251;
+
+  --footter-color: #171941;
+  --footter-color-grade: #292d61;
+  --footter-color-border: #435db5;
+}
